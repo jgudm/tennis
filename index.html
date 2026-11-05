@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tennis | Coaching and court time for every level</title>
+  <meta name="description" content="Concept website for Tennis, a fictional club with hard, clay and grass courts, and coaching for juniors and adults.">
+  <meta name="theme-color" content="#082a5e">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#programs">Skip to programs</a>
+
+  <header class="site-head" id="head">
+    <a class="brand" href="#top" aria-label="Tennis, back to top">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="15" fill="#dcf235"/><path d="M6 5.5c7 6 7 15 0 21M26 5.5c-7 6-7 15 0 21" fill="none" stroke="#082a5e" stroke-width="2"/></svg>
+      Tennis
+    </a>
+    <button class="menu" id="menu" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" aria-label="Main">
+      <a href="#club">The club</a>
+      <a href="#programs">Programs</a>
+      <a href="#courts">Courts</a>
+      <a class="nav-cta" href="#visit">Visit us</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <img class="hero-img"
+        src="https://images.unsplash.com/photo-1709403552725-97e0ba206cb8?auto=format&fit=crop&w=1600&q=80"
+        srcset="https://images.unsplash.com/photo-1709403552725-97e0ba206cb8?auto=format&fit=crop&w=900&q=75 900w,
+                https://images.unsplash.com/photo-1709403552725-97e0ba206cb8?auto=format&fit=crop&w=1600&q=80 1600w,
+                https://images.unsplash.com/photo-1709403552725-97e0ba206cb8?auto=format&fit=crop&w=2400&q=80 2400w"
+        sizes="100vw" alt="A player chasing down a forehand on a blue hard court" fetchpriority="high">
+      <div class="hero-copy">
+        <h1>Every point <span>starts here<i class="ball" aria-hidden="true"></i></span></h1>
+        <p>Coaching, court time and good matches for every level, on hard, clay and grass.</p>
+        <div class="actions">
+          <a class="btn btn-ball" href="#programs">See programs</a>
+          <a class="btn btn-glass" href="#courts">Explore the courts</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="club" id="club" aria-labelledby="club-title">
+      <div class="mosaic">
+        <img class="m-a" loading="lazy" width="900" height="1200" alt="A racket and ball resting on a blue and green court"
+          src="https://images.unsplash.com/photo-1622163642998-1ea32b0bbc67?auto=format&fit=crop&w=900&h=1200&q=75">
+        <img class="m-b" loading="lazy" width="900" height="600" alt="A player in a blue sweatshirt sitting on court with a racket"
+          src="https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?auto=format&fit=crop&w=900&h=600&q=75">
+        <img class="m-c" loading="lazy" width="900" height="600" alt="A player's shadow and racket on a green court"
+          src="https://images.unsplash.com/photo-1684443726764-6a236cb33ccb?auto=format&fit=crop&w=900&h=600&q=75">
+      </div>
+      <div class="club-copy">
+        <h2 id="club-title">A club built around time on court</h2>
+        <p>Come for a lesson, stay for a match. Our coaches are out on court every day, and there’s always someone at your level to play.</p>
+        <ul>
+          <li>Hard, clay and grass courts</li>
+          <li>Coaches on court seven days a week</li>
+          <li>Rackets and balls to borrow</li>
+          <li>Floodlit courts for evening play</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="programs" id="programs" aria-labelledby="programs-title">
+      <div class="sec-head">
+        <h2 id="programs-title">Find your program</h2>
+        <p>Six ways to play, from your first rally to your next tournament.</p>
+      </div>
+      <ul class="cards">
+        <li class="card card-photo c-1">
+          <img loading="lazy" alt="Close view of a racket and ball beside a player's shoes on a clay court"
+            src="https://images.unsplash.com/photo-1599586120429-48281b6f0ece?auto=format&fit=crop&w=1100&h=800&q=75">
+          <div><span class="tag">One to one</span><h3>Private coaching</h3><p>A plan for your game, with a coach who tracks every session.</p></div>
+        </li>
+        <li class="card card-court c-2">
+          <div><span class="tag">Ages 6 to 12</span><h3>Junior academy</h3><p>Small groups, short courts and plenty of games.</p></div>
+        </li>
+        <li class="card card-photo c-3">
+          <img loading="lazy" alt="A player seen from above, stretching for a shot on a green court"
+            src="https://images.unsplash.com/photo-1545151414-8a948e1ea54f?auto=format&fit=crop&w=800&h=900&q=75">
+          <div><span class="tag">All levels</span><h3>Adult programs</h3><p>Weekly groups matched to how you play today.</p></div>
+        </li>
+        <li class="card card-ball c-4">
+          <div><span class="tag">Intermediate and up</span><h3>Serve and return</h3><p>Sharpen the two shots that start every point.</p></div>
+        </li>
+        <li class="card card-photo c-5">
+          <img loading="lazy" alt="Tennis balls scattered beside a net on a blue court"
+            src="https://images.unsplash.com/photo-1759819599208-0b79a7f3f347?auto=format&fit=crop&w=800&h=800&q=75">
+          <div><span class="tag">Ages 15 and up</span><h3>Doubles clinic</h3><p>Positioning, poaching and how to talk to your partner.</p></div>
+        </li>
+        <li class="card card-photo c-6">
+          <img loading="lazy" alt="A player with a racket standing on the baseline, casting a long shadow"
+            src="https://images.unsplash.com/photo-1545809074-59472b3f5ecc?auto=format&fit=crop&w=1200&h=800&q=75">
+          <div><span class="tag">Competitive players</span><h3>Match preparation</h3><p>Point play, tactics and fitness ahead of your next tournament.</p></div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="courts" id="courts" aria-labelledby="courts-title">
+      <div class="sec-head">
+        <h2 id="courts-title">Three surfaces, one club</h2>
+        <p>Each one plays differently. Try them all.</p>
+      </div>
+      <div class="surfaces" id="surfaces">
+        <button class="surface is-open" type="button" aria-pressed="true">
+          <img loading="lazy" alt="" src="https://images.unsplash.com/photo-1699117686612-ece525e4f91a?auto=format&fit=crop&w=1100&h=1000&q=75">
+          <span class="s-copy"><strong>Hard</strong><em>Fast and true. The bounce you can count on, all year round.</em></span>
+        </button>
+        <button class="surface" type="button" aria-pressed="false">
+          <img loading="lazy" alt="" src="https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&w=1100&h=1000&q=75">
+          <span class="s-copy"><strong>Clay</strong><em>Slower and higher. Long rallies and room to slide.</em></span>
+        </button>
+        <button class="surface" type="button" aria-pressed="false">
+          <img loading="lazy" alt="" src="https://images.unsplash.com/photo-1684443726764-6a236cb33ccb?auto=format&fit=crop&w=1100&h=1000&q=75">
+          <span class="s-copy"><strong>Grass</strong><em>Low and quick. Rewards a big serve and soft hands.</em></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="visit" id="visit" aria-labelledby="visit-title">
+      <img loading="lazy" alt="Close view through a net of a player's shoes and a ball on a clay court"
+        src="https://images.unsplash.com/photo-1530915365347-e35b749a0381?auto=format&fit=crop&w=2000&q=75">
+      <div class="visit-card">
+        <h2 id="visit-title">Come and hit with us</h2>
+        <dl>
+          <div><dt>Open</dt><dd>Every day, 7am to 10pm</dd></div>
+          <div><dt>First visit</dt><dd>Bring shoes, we’ll bring the rest</dd></div>
+          <div><dt>Evenings</dt><dd>Floodlit until closing</dd></div>
+        </dl>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-foot">
+    <p class="foot-brand">Tennis</p>
+    <p>Concept website. Tennis is a fictional club, and its programs and hours are examples. Photos from <a href="https://unsplash.com/license">Unsplash</a>.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
