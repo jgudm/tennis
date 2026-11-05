@@ -1,6 +1,6 @@
 # Tennis
 
-A concept website for a fictional tennis club, built from scratch with Claude Code.
+Tennis club.
 
 - Plain HTML, CSS and JavaScript, with no build step
 - Responsive program cards and an interactive court surface selector
